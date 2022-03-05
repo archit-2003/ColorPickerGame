@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Picker Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>THE GREAT <br><span class="rand-color">rgb()</span> <br>COLOR GAME</h1>
+    </div>
+    <div class="middle">
+      <button class="new" type="button" name="button" onclick="changeColors()">NEW COLORS</button>
+      <span class="status"></span>
+      <button class="easy" type="button" name="button" onclick="easy()">EASY</button>
+      <button class="hard" type="button" name="button" onclick="hard()">HARD</button>
+    </div>
+    <div class="playArea">
+      <div class="colors">
+        <div class="color color1"></div>
+        <div class="color color2"></div>
+        <div class="color color3"></div>
+        <br>
+        <div class="color color4 extra-colors"></div>
+        <div class="color color5 extra-colors"></div>
+        <div class="color color6 extra-colors"></div>
+      </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

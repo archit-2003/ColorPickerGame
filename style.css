@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #21211f;
+}
+
+.header{
+  background-color: #FFC300;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.rand-color{
+  font-size: 80px;
+  font-weight: 300;
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 40px;
+  margin: 0;
+  font-family: OpenSans, sans-serif;
+}
+
+.middle{
+  position: relative;
+  background-color: #FFFFFF;
+  height: 26px;
+  /* padding: 0; */
+  /* text-align: center; */
+}
+
+.playArea{
+  /* background-color: #424242; */
+  text-align: center;
+  /* padding-bottom: 148px; */
+  position: relative;
+  /* display: inline-block; */
+  /* top: 0; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.colors{
+  position: relative;
+  display: inline-block;
+}
+
+button{
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  font-weight: bolder;
+  height: 26px;
+  padding: 4px;
+  /* left: 490px; */
+  background-color: #FFFFFF;
+  border-width: 0;
+  color: #D3311A;
+}
+
+button:hover{
+  background-color: #D3311A;
+  color: #FFFFFF;
+}
+
+.status{
+  position: relative;
+  left: 735px;
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+
+.new{
+  position: absolute;
+  left: 500px;
+}
+
+.easy{
+  right: 560px;
+}
+
+.hard{
+  right: 500px;
+}
+
+.color{
+  height: 180px;
+  width: 180px;
+  background-color: #32215D;
+  display: inline-block;
+  opacity: 1;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.extra-colors{
+  display: none;
+}
